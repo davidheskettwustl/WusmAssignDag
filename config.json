@@ -1,0 +1,38 @@
+{
+	"name": "WUSM Assign DAG",
+
+	"namespace": "WashingtonUniversity\\AssignDag",
+
+    "description": "A module to assign DAGs for multisite public surveys. Append the query string &dag=YOUR_DAG_UNIQUE_NAME to the end of the URL i.e. https://redcapURL/surveys/index.php?s=84MY9NREFJ&dag=YOUR_DAG_UNIQUE_NAME To make the links easier to share, you may wish to use a URL shortener like goo.gl",
+
+  "authors": [
+      {
+          "name": "Sairam Sutari",
+          "email": "sutaris@wustl.edu",
+          "institution": "Washington University School of Medicine Institute for Informatics"
+      }
+  ],
+
+  "permissions": [
+      "redcap_save_record"
+   ],
+
+   "links": {
+      },   
+   
+  "project-settings": [
+	    {
+				"key": "debug_mode_project",
+				"name": "Project Debug Mode",
+				"type": "checkbox"
+	    }
+		],
+		
+   "system-settings": [
+	    {
+				"key": "debug_mode_log",
+				"name": "Log Debug Mode",
+				"type": "checkbox"
+	    }
+    ]	    
+}
